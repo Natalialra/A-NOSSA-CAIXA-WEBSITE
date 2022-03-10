@@ -1,15 +1,15 @@
-# A Nossa Caixa
-
--Webisite desenvolvido para correspondente bancário utilizando VueJs. 
--Hospedagem feita por mim na AWS, utilizando criptografia do Cloudflare.
--Layout feito por mim baseado nas cores de escolha do cliente.
--Responsividade realizada sem auxílio de frameworks.
+<h2> A NOSSA CAIXA </h2>
+  
+Website desenvolvido para correspondente bancário utilizando VueJs. <br/>
+Hospedagem feita por mim na AWS, utilizando criptografia do Cloudflare.<br/>
+Layout feito por mim baseado nas cores de escolha do cliente.<br/>
+Responsividade realizada sem auxílio de frameworks.<br/>
 
 # Tecnologias utilizadas
 
-HTML
-CSS
-VueJs
+HTML <br/>
+CSS <br/>
+VueJs <br/>
 
 # Link para acesso
 
