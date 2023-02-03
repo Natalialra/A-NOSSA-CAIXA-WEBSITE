@@ -2,7 +2,6 @@
   <div id="contato">
     <h1>Entre em Contato Conosco</h1>
     <div id="funcionamento">
-      <p>Horário de Funcionamento: Segunda à Sexta, de 09:00 às 19:00</p>
     </div>
     <section>
       <div id="contact-us">
@@ -10,15 +9,18 @@
           <div class="contato-cards">
             <i class="material-icons">phone_in_talk</i>
             <h3>Telefones</h3>
-            <p>(31) 9 9963-7152</p>
-            <p>(31) 9 8212-2222</p>
+              <a href="tel:+5531999637152" title="Ligar"><p>(31) 9 9963-7152</p></a>
           </div>
           <div class="contato-cards">
             <i class="material-icons">phone_android</i>
             <h3>Redes Sociais</h3>
             <div id="social-media">
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-facebook"></i>
+              
+                <a href="https://www.instagram.com/anossacaixa/" target="_blank" title="Acessar Instagram">
+                  <i class="fa-brands fa-instagram">
+                  </i>
+                </a>
+              <!-- <i class="fa-brands fa-facebook"></i> -->
             </div>
           </div>
         </div>
@@ -26,7 +28,7 @@
           <div class="contato-cards">
             <i class="material-icons">email</i>
             <h3>E-mail</h3>
-            <p>administrativo@anossacaixa.com.br</p>
+            <p>rodrigo@anossacaixa.com.br</p>
           </div>
           <div class="contato-cards">
             <i class="material-icons">location_on</i>
@@ -138,12 +140,31 @@ export default {
   flex-direction: row;
 }
 
+#social-media > a {
+  color: white;
+}
+
+#social-media > a:hover {
+  color: var(--laranja);
+  cursor: pointer;
+}
+
 .contato-cards > h3 {
   margin-bottom: 3%;
 }
 
 .contato-cards > p {
   margin-bottom: 3%;
+}
+
+.contato-cards > a {
+  color: white;
+  text-decoration: none;
+}
+
+.contato-cards > a:hover {
+  color: var(--laranja);
+  cursor: pointer;
 }
 
 .material-icons {

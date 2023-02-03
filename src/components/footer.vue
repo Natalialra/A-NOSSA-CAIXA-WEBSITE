@@ -65,15 +65,11 @@
           </div>
           <div id="email">
             <i class="material-icons tel">email</i>
-            <p>administrativo@anossacaixa.com.br</p>
+            <p>rodrigo@anossacaixa.com.br</p>
           </div>
           <div class="phone">
             <i class="material-icons tel">phone</i>
-            <p>(31) 99963-7152</p>
-          </div>
-          <div class="phone">
-            <i class="material-icons tel">phone</i>
-            <p>(31) 98212-2222</p>
+            <a href="tel:+5531999637152" title="Ligar"><p>(31) 9 9963-7152</p></a>
           </div>
         </div>
         <div id="medias">
@@ -81,8 +77,8 @@
           <p>REDES SOCIAIS</p>
         </div>
           <div id="socialmedia">
-            <i class="fa-brands fa-instagram btn-social-media"></i>
-            <i class="fa-brands fa-facebook btn-social-media"></i>
+            <a href="https://www.instagram.com/anossacaixa/" target="_blank" title="Acessar Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <!-- <i class="fa-brands fa-facebook btn-social-media"></i> -->
             <button id="btn-scroll" @click="scrolltop" title="Ir para o Topo"><i class="material-icons">arrow_upward</i></button>
             <a href="https://api.whatsapp.com/send?phone=5531999637152"> 
               <button id="btn-whats">
@@ -192,6 +188,17 @@ export default {
   width: 50%;
 }
 
+#contato a {
+  color: white;
+  text-decoration: none;
+}
+
+#contato a:hover {
+  color: var(--laranja);
+  cursor: pointer;
+  font-weight: 600;
+}
+
 #email {
   display: flex;
   flex-direction: row;
@@ -221,6 +228,15 @@ export default {
   display: flex;
   padding-top: 2%;
   align-items: center;
+}
+
+#socialmedia > a {
+  color: white;
+}
+
+#socialmedia > a:hover {
+  color: var(--laranja);
+  cursor: pointer;
 }
 
 .btn-social-media:hover {
