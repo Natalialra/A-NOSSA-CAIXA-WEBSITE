@@ -3,7 +3,7 @@
     <button
       id="btn-simulacao"
       class="heartbeat"
-      onclick="window.open('https://www8.caixa.gov.br/siopiinternet-web/simulaOperacaoInternet.do?method=inicializarCasoUso', '_blank');"
+      onclick="simulatorAPI.openModal('624a8c3f-e1d3-497a-b48b-ff9a4348d2fd')"
     >
       Simule seu Financiamento
     </button>
