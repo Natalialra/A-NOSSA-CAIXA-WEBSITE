@@ -1,12 +1,13 @@
 <template>
   <div id="master">
-    <button
+    <a href="https://www8.caixa.gov.br/siopiinternet-web/simulaOperacaoInternet.do?method=inicializarCasoUso" target="blank" >
+      <button
       id="btn-simulacao"
       class="heartbeat"
-      onclick="simulatorAPI.openModal('624a8c3f-e1d3-497a-b48b-ff9a4348d2fd')"
     >
       Simule seu Financiamento
-    </button>
+      </button>
+    </a>
     <div id="navbar">
       <header :class="{ 'scrolled-nav': scrolledNav }">
         <nav>
