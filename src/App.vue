@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root {
   --laranja: rgb(255, 135, 0);
   --laranja-soft: #ecb168;
@@ -47,5 +48,9 @@ html {
 body {
   width: 100%;
   background-color: var(--light-background);
+  font-family: "Open Sans", sans-serif;
+  ont-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px;
 }
 </style>

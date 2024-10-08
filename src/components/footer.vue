@@ -33,7 +33,7 @@
             </div>
             <div class="inlist">
               <i class="material-icons chevron_right">chevron_right</i>
-              <span>Cartões de crédito</span>
+              <span>Soluções Corporativas</span>
             </div>
             <div class="inlist">
               <i class="material-icons chevron_right">chevron_right</i>
@@ -53,7 +53,7 @@
             </div>
             <div class="inlist">
               <i class="material-icons chevron_right">chevron_right</i>
-              <span>Soluções Corporativas</span>
+              <span>Cartões de Crédito</span>
             </div>
           </div>
         </div>
@@ -110,6 +110,7 @@ export default {
 </script>
 
 <style>
+
 #footersection {
   display: flex;
   background: var(--azul-caixa);
@@ -131,7 +132,7 @@ export default {
 #servicos {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   height: 100%;
   align-items: center;
   justify-items: center;
@@ -318,7 +319,7 @@ export default {
 
 #contatos {
   align-items: flex-start;
-  width: 50%;
+  width: 40%;
 }
 
 #contato {

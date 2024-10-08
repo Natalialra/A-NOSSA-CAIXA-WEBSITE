@@ -73,7 +73,7 @@ export default {
 
 <style>
 #middlesection {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ export default {
   align-items: center;
   border-radius: 8px;
   height: 70%;
-  min-height: 270px;
+  min-height: 250px;
   width: 15%;
   margin: 1%;
   padding: 0 1%;
@@ -126,7 +126,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  font-size: 1.1rem;
+  //font-size: 1.1rem;
 }
 
 #middlesection h1 {
@@ -175,6 +175,7 @@ export default {
     width: 90%;
     margin: 1.5%;
     padding: 0 1% 1% 1%;
+    min-height: 280px;
   }
 
   .title-card {
@@ -187,7 +188,7 @@ export default {
 
   #middlesection h1 {
     font-size: 3rem;
-    padding: 4% 0 0 0;
+    //padding: 4% 0 0 0;
   }
 }
 
@@ -195,7 +196,7 @@ export default {
 @media (min-width: 769px) and (max-width: 1024px) {
   #middlesection {
     height: 60vh;
-    min-height: 414px;
+    min-height: 500px;
     width: 100%;
     border-radius: 100px;
     margin: 6% 0;
@@ -217,6 +218,7 @@ export default {
   .card-template {
     align-items: center;
     width: 90%;
+    height: 100%;
     margin: 1.5%;
     padding: 0 1% 1% 1%;
   }
@@ -261,6 +263,7 @@ export default {
   .card-template {
     align-items: center;
     width: 90%;
+    height: 100%;
     margin: 1.5%;
     padding: 0 1% 1% 1%;
   }
@@ -283,7 +286,7 @@ export default {
 @media (min-width: 426px) and (max-width: 576px) {
   #middlesection {
     height: 100vh;
-    min-height: 842px;
+    min-height: 900px;
     width: 100%;
     border-radius: 60px;
     margin: 6% 0;
@@ -291,7 +294,7 @@ export default {
 
   .cards {
     flex-direction: column;
-    height: 85%;
+    height: 90%;
     min-height: 694px;
     width: 95%;
     align-items: center;
@@ -329,7 +332,7 @@ export default {
 @media (min-width: 376px) and (max-width: 425px) {
   #middlesection {
     height: 100vh;
-    min-height: 678px;
+    min-height: 900px;
     width: 100%;
     border-radius: 60px;
     margin: 6% 0;

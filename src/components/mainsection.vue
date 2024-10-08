@@ -503,7 +503,7 @@ button > a {
 }
 
 /*---------- Responsive Layout 376px  - 425px ----------*/
-@media (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 374px) and (max-width: 425px) {
   #header {
     background-image: linear-gradient(
         to bottom,
@@ -565,7 +565,7 @@ button > a {
 }
 
 /*---------- Responsive Layout 320px  - 375px ----------*/
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 373px) {
   #header {
     background-image: linear-gradient(
         to bottom,

@@ -148,7 +148,7 @@ export default {
     },
     checkScreen() {
       this.windowWidth = window.innerWidth;
-      if (this.windowWidth <= 750) {
+      if (this.windowWidth <= 900) {
         this.mobile = true;
         return;
       }
@@ -206,7 +206,7 @@ nav {
 
 @media (min-width: 751px) and (max-width: 990px) {
   ul > li {
-    margin-left: 4px;
+    margin-left: 15px;
   }
 
   .link {
@@ -234,7 +234,7 @@ ul,
 
 li {
   text-transform: uppercase;
-  padding: 16px;
+  padding: 16px 0;
   margin-left: 16px;
   font-weight: 600;
 }
@@ -358,7 +358,7 @@ li > a {
   display: flex;
   align-items: center;
   flex: 1;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .icon {
@@ -464,10 +464,25 @@ h4 > span {
   }
 }
 
-/*---------- Responsive Layout 991px  - 1259px ----------*/
-@media (min-width: 991px) and (max-width: 1259px) {
-  #master > #btn-simulacao {
-    height: 2rem;
+/*---------- Responsive Layout 1116px  - 1259px ----------*/
+@media (min-width: 1116px) and (max-width: 1259px) {
+  #btn-simulacao {
+    height: 3rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    top: 2%;
+    right: 1%;
+  }
+}
+
+/*---------- Responsive Layout 991px  - 1115px ----------*/
+@media (min-width: 991px) and (max-width: 1115px) {
+  #btn-simulacao {
+    height: 1.5rem;
     width: 15rem;
     display: flex;
     justify-content: center;
@@ -479,54 +494,54 @@ h4 > span {
   }
 }
 
-/*---------- Responsive Layout 951px  - 990px ----------*/
-@media (min-width: 951px) and (max-width: 990px) {
-  #master > #btn-simulacao {
-    height: 1.7rem;
-    width: 15rem;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.4px;
-    top: 2px;
-    right: 35%;
-  }
-}
-
-/*---------- Responsive Layout 751px  - 950px ----------*/
-@media (min-width: 751px) and (max-width: 950px) {
-  #master > #btn-simulacao {
-    height: 2rem;
-    width: 15rem;
+/*---------- Responsive Layout 901px  - 950px ----------*/
+@media (min-width: 901px) and (max-width: 950px) {
+   #btn-simulacao {
+    height: 3rem;
+    width: 7rem;
     display: flex;
     justify-content: center;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 0.4px;
-    top: 2px;
-    right: 30%;
+    top: 2%;
+    right: 2%;
+  }
+}
+
+/*---------- Responsive Layout 751px  - 900px ----------*/
+@media (min-width: 751px) and (max-width: 900px) {
+  #btn-simulacao {
+    height: 2rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    top: 1%;
+    right: 10%;
   }
 }
 
 /*---------- Responsive Layout 577px  - 750px ----------*/
 @media (min-width: 577px) and (max-width: 750px) {
-  #master > #btn-simulacao {
-    height: 2.5rem;
-    width: 7rem;
-    font-size: 13px;
+  #btn-simulacao {
+    height: 3rem;
+    width: 8rem;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.4px;
-    top: 6px;
-    right: 65px;
+    top: 4px;
+    right: 75px;
   }
 }
 
 /*---------- Responsive Layout 426px  - 576px ----------*/
 @media (min-width: 426px) and (max-width: 576px) {
-  #master > #btn-simulacao {
+  #btn-simulacao {
     height: 2.5rem;
-    width: 6rem;
+    width: 7rem;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.4px;
@@ -536,28 +551,22 @@ h4 > span {
 }
 
 /*---------- Responsive Layout 376px  - 425px ----------*/
-@media (min-width: 376px) and (max-width: 425px) {
-  #master > #btn-simulacao {
+@media (min-width: 375px) and (max-width: 425px) {
+  #btn-simulacao {
     height: 2.5rem;
-    width: 5.3rem;
-    font-size: 10px;
+    width: 5.8rem;
+    font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.4px;
     top: 05px;
-    right: 45px;
+    right: 41px;
   }
 }
 
 /*---------- Responsive Layout 320px  - 375px ----------*/
-@media (min-width: 320px) and (max-width: 375px) {
-#master > #btn-simulacao {
-    height: 3rem;
-    width: 5rem;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.4px;
-    top:750px;
-    right: 40px;
+@media (min-width: 320px) and (max-width: 374px) {
+ #btn-simulacao {
+    display: none;
   }
 }
 </style>
