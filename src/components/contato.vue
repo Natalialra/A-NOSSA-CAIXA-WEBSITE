@@ -34,8 +34,7 @@
             <i class="material-icons">location_on</i>
             <h3>Endereço</h3>
             <p>
-              Avenida Raja Gabaglia, nº 1613, sala B, Luxemburgo - Belo
-              Horizonte/MG
+              Rua Domingos Vieira, 319, sala 806, Santa Efigenia - Belo Horizonte / MG
             </p>
           </div>
         </div>

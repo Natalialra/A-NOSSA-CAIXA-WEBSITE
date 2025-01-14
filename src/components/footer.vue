@@ -92,7 +92,7 @@
     <div id="endereco">
       <i class="material-icons">location_on</i>
       <span
-        >Avenida Raja Gabaglia, nº 1613, sala B, Luxemburgo - Belo Horizonte/MG</span
+        >Rua Domingos Vieira, 319, sala 806, Santa Efigenia - Belo Horizonte / MG</span
       >
     </div>
   </div>
@@ -203,7 +203,7 @@ export default {
 #email {
   display: flex;
   flex-direction: row;
-  padding-top: 1%;
+  padding-top: 6%;
 }
 
 .phone {
@@ -227,7 +227,7 @@ export default {
 
 #socialmedia {
   display: flex;
-  padding-top: 2%;
+  padding-top: 12%;
   align-items: center;
 }
 
